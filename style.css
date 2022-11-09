@@ -1,9 +1,13 @@
 body {
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 120, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 24px);
 }
 
-h1{
+h1 {
     font-size: 5em;
     text-align: center;
     color: #fff;
